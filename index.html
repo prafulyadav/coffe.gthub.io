@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBA Coffee wala</title>
+
+
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+
+<style>
+    /* h2 {
+    margin-top: -100px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+} */
+
+
+    /* 
+ button {
+        text-decoration: none;
+       
+        color: rgb(0, 0, 0);
+        background-color: rgb(2 170 255);
+        border-radius: 20px;
+        text-align: center;
+        margin: 13px auto;
+        padding: 0px;
+        border: transparent;
+        position: relative;
+        
+        height: 46px;
+        font-size: x-large;
+        top: -11px;
+        left: 2px;
+ }
+      */
+
+    /* button:hover {
+        background-color: aliceblue;
+
+    } */
+
+    /* button:active {
+        background-color: rgb(140, 201, 255);
+    } */
+
+
+    /* #link1 {
+        color: #000;
+        text-align: left;
+        font-weight: bold;
+        text-decoration: none;
+    } */
+
+    /* button #ei {
+color: #000;
+text-align: left;
+font-weight: bolder;
+text-decoration: none;
+
+padding: 13px;
+position: relative;
+
+height: 46px; 
+
+} */
+    .fixed-top {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: -1px;
+        background: black;
+        z-index: 1030;
+        height: 120px;
+        width: 101%;
+    }
+
+    @media (min-width: 992px) {
+        .navbar-expand-lg .navbar-nav {
+            flex-direction: row;
+            position: relative;
+            left: -561px;
+            font: caption;
+            width: 279px;
+            font-size: medium;
+        }
+    }
+
+    img,
+    svg {
+        vertical-align: middle;
+        position: relative;
+        top: 6px;
+        color: whitesmoke;
+        width: 26px;
+        height: 25px;
+        left: 361px;
+    }
+
+
+    img,
+    svg {
+        vertical-align: middle;
+        position: relative;
+        top: 6px;
+        color: whitesmoke;
+        width: 26px;
+        height: 25px;
+        left: 361px;
+    }
+
+    img,
+    svg,
+    #w {
+        vertical-align: middle;
+        position: relative;
+        top: 6px;
+        color: whitesmoke;
+        width: 26px;
+        height: 25px;
+        left: 361px;
+    }
+
+
+    #w {
+        position: relative;
+        width: 30px;
+        left: 379px;
+    }
+
+    /* #e{
+     */
+
+    /* margin: 0;
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #000000;
+      text-align: left;
+      background-color: #fff;
+  
+        height:55vh;
+        
+        background-size:cover;
+      position:relative;
+      
+} */
+
+    /* .navbarScroll.navbarDark {
+    background-color: black;
+} */
+
+    /* hero background image */
+    .bgimage {
+        height: 100vh;
+        background: url('girl-865304.jpeg');
+        background-size: cover;
+        position: relative;
+    }
+
+    #t {
+        width: auto;
+        position: relative;
+        top: 26px;
+        left: -359px;
+    }
+
+    /* text css above hero image*/
+    /* .hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+} */
+    /* .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+} */
+
+    /* spacing on all sections */
+    /* #about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} */
+    /* #contact {
+    padding-bottom: 4rem;
+}
+
+.imageAboutPage {
+    width: 100%;
+}
+
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  } */
+    /* .servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+
+#footer {
+    background-color: #808080;
+    text-align: center;
+} */
+
+    button {
+        text-decoration: none;
+        /* display: block; */
+        color: rgb(0, 0, 0);
+        background-color: rgb(2 170 255);
+        border-radius: 20px;
+        text-align: center;
+        margin: 13px auto;
+        padding: 0px;
+        border: transparent;
+        position: relative;
+        /* width: 29%; */
+        height: 46px;
+        font-size: x-large;
+        top: -11px;
+        left: 2px;
+    }
+
+    button:hover {
+        background-color: aliceblue;
+
+    }
+
+    button:active {
+        background-color: rgb(140, 201, 255);
+    }
+
+
+    #link1 {
+        color: #000;
+        text-align: left;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    button #ei {
+
+
+        color: #000;
+        text-align: left;
+        font-weight: bolder;
+        text-decoration: none;
+
+        padding: 13px;
+        position: relative;
+
+        height: 46px;
+
+    }
+
+
+    #e {
+
+
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.5;
+        color: #010000;
+        text-align: left;
+        background-color: #fff;
+
+        height: 55vh;
+
+        background-size: cover;
+        position: relative;
+
+    }
+
+    .navbarScroll.navbarDark {
+        background-color: black;
+    }
+
+    /* hero background image */
+
+    /* text css above hero image*/
+    .hero_title {
+        font-size: 3.5rem;
+        /* position: relative; */
+        /* left: -426px; */
+        text-align: left;
+    }
+
+    .hero_desc {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+
+    /* spacing on all sections */
+    /* #about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} */
+    #contact {
+        padding-bottom: 4rem;
+    }
+
+    /* about section image css */
+    .imageAboutPage {
+        width: 100%;
+        border-radius: -1px;
+        position: inherit;
+        height: 497px;
+    }
+
+    /* services section css */
+    .servicesText.card {
+        height: 280px;
+        cursor: pointer;
+    }
+
+    .servicesIcon {
+        font-size: 36px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .card-title {
+        text-align: center;
+    }
+
+    .card:hover .servicesIcon {
+        color: #008000;
+    }
+
+    .servicesText:hover {
+        border: 1px solid #008000;
+    }
+
+    /* social media icons styling */
+    .social-icons {
+        font-size: 36px;
+        cursor: pointer;
+    }
+
+    .fa-facebook:hover,
+    .fa-instagram:hover,
+    .fa-twitter:hover,
+    .fa-linkedin:hover,
+    .fa-twitch:hover {
+        color: #008000;
+    }
+
+    .fab {
+        color: #000000;
+    }
+
+    /* footer styling */
+    #footer {
+        background-color: #808080;
+        text-align: center;
+    }
+
+    .btn-group-lg>.btn,
+    .btn-lg {
+        /* padding: 0.5rem 1rem; */
+        /* font-size: 1.25rem; */
+        position: relative;
+        border-radius: 0.3rem;
+        left: -590px;
+        /* right: -25px; */
+    }
+
+    #n {
+        position: inherit;
+        width: 122px;
+        height: 75px;
+    }
+
+    #im{
+        width: 100%;
+    height: 195px;
+    position: inherit;
+    border-radius: 17px;
+    }
+
+    #q{
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#im{
+    width: 94%;
+    height: 192px;
+    position: inherit;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 63%;
+    margin: 6px;
+    height: 369px;
+  
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(11, 10, 10, 0.2);
+}
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 45%);
+    transition: 0.3s;
+    border-radius: 15px;
+    width: 63%;
+    margin: 15px;
+    padding: 11px;
+   
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  
+    border-radius: 5px 5px 0 0;
+    width: 58%;
+
+}
+.a{
+    background-color: aliceblue;
+    border: 1px solid black;
+   border-radius: 12px;
+
+}
+.a:hover{
+    background-color: rgb(166, 201, 218);
+
+}
+.q{
+    display: flex;
+    margin: 18px;
+}
+.q1{
+    display: flex;
+    margin: 18px;
+}
+h1{
+    text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.v{
+  text-align: center;
+}
+
+
+
+
+.btn {
+  border: none; /* Remove borders */
+  color: white; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  border-radius: 7px;
+}
+
+.success {background-color: #039ff9;} /* Green */
+.success:hover {background-color: #60e2ff;}
+
+
+
+
+
+
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+
+            <a class="navbar-brand"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-cup-hot-fill" id="n" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M.5 6a.5.5 0 0 0-.488.608l1.652 7.434A2.5 2.5 0 0 0 4.104 16h5.792a2.5 2.5 0 0 0 2.44-1.958l.131-.59a3 3 0 0 0 1.3-5.854l.221-.99A.5.5 0 0 0 13.5 6H.5ZM13 12.5a2.01 2.01 0 0 1-.316-.025l.867-3.898A2.001 2.001 0 0 1 13 12.5Z" />
+                    <path
+                        d="m4.4.8-.003.004-.014.019a4.167 4.167 0 0 0-.204.31 2.327 2.327 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.593.593 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3.31 3.31 0 0 1-.202.388 5.444 5.444 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 3.6 4.2l.003-.004.014-.019a4.149 4.149 0 0 0 .204-.31 2.06 2.06 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.593.593 0 0 0-.09-.252A4.334 4.334 0 0 0 3.6 2.8l-.01-.012a5.099 5.099 0 0 1-.37-.543A1.53 1.53 0 0 1 3 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a5.446 5.446 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 4.4.8Zm3 0-.003.004-.014.019a4.167 4.167 0 0 0-.204.31 2.327 2.327 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.593.593 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3.31 3.31 0 0 1-.202.388 5.444 5.444 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 6.6 4.2l.003-.004.014-.019a4.149 4.149 0 0 0 .204-.31 2.06 2.06 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.593.593 0 0 0-.09-.252A4.334 4.334 0 0 0 6.6 2.8l-.01-.012a5.099 5.099 0 0 1-.37-.543A1.53 1.53 0 0 1 6 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a5.446 5.446 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 7.4.8Zm3 0-.003.004-.014.019a4.077 4.077 0 0 0-.204.31 2.337 2.337 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.593.593 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3.198 3.198 0 0 1-.202.388 5.385 5.385 0 0 1-.252.382l-.019.025-.005.008-.002.002A.5.5 0 0 1 9.6 4.2l.003-.004.014-.019a4.149 4.149 0 0 0 .204-.31 2.06 2.06 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.593.593 0 0 0-.09-.252A4.334 4.334 0 0 0 9.6 2.8l-.01-.012a5.099 5.099 0 0 1-.37-.543A1.53 1.53 0 0 1 9 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a5.446 5.446 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 10.4.8Z" />
+                </svg></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Menu</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Blogs</a>
+                    </li>
+
+
+
+
+                    <li class="nav-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id="w1"
+                            class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg>
+
+                    </li>
+
+                    <br>
+                    <li class="nav-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id="w"
+                            class="bi bi-cart-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                        </svg>
+
+
+                    </li>
+
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-11 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h2 class="hero_title">FRESH COFFEE IN </h2>
+                    <h2 class="hero_title">THE MORNING </h2>
+                    <p class="hero_desc col-4">Lorem rspignam sequi aliquidit. Nobis beatae quam rem perspiciatis
+                        similique dicta.liberognissimos cupiditate ratione voluptas voluptates pariatur facilis optio
+                        soluta.</p>
+
+                    <br>
+                    <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Us</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4 col-4">
+                    <img src="girl-865304.jpeg" class="imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <h2>What Makes Our Coffee Special?</h2>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+
+                        </div>
+
+                    </div>
+                    <div class="row mt-3">
+                        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto nemo voluptatum repellendus
+                            sit recusandae debitis sint fuga a dignissimos laborum! Omnis, voluptatem porro illum quo ab
+                            quibusdam officia. Quod, voluptates?
+                            Ullam consectetur eum accusamus velit id cum laboriosam, iste facilis est repellendus sit
+                            esse pariatur consequuntur, culpa sint. Quasi ex sint placeat numquam non reprehenderit ab
+                            vitae esse obcaecati quos. </p>
+
+                        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto nemo voluptatum repellendus
+                            sit recusandae debitis sint fuga a dignissimos laborum! Omnis, voluptatem porro illum quo ab
+                            quibusdam officia. Quod, voluptates?
+                            Ullam consectetur eum accusamus velit id cum laboriosam, iste facilis est repellendus sit
+                            esse pariatur consequuntur, culpa sint. Quasi ex sint placeat numquam non reprehenderit ab
+                            vitae esse obcaecati quos. </p>
+
+                        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto nemo voluptatum repellendus
+                            sit recusandae debitis sint fuga a dignissimos laborum! Omnis, voluptatem porro illum quo ab
+                            quibusdam officia. Quod, voluptates?
+                            Ullam consectetur eum accusamus velit id cum laboriosam, iste facilis est repellendus sit
+                            esse pariatur consequuntur, culpa sint. Quasi ex sint placeat numquam non reprehenderit ab
+                            vitae esse obcaecati quos. </p>
+
+                        <br>
+                        <button type="button" id="t" class="btn btn-primary btn-lg">Get Started</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+<br>
+
+
+
+    
+
+
+
+
+
+    <h1>Our Menu</h1>
+    <br>
+    <div class="q">
+        
+          <div class="card">
+            <img src="" alt="">
+            
+            <div class="v">
+                <img src="starbucks-2346226_1920.jpeg" id="im"alt="">
+              <h4><b>healthy & tasty</b></h4>
+            <p>80000rs</p>
+
+        <button class="btn success" type="submit">Buy Now</button>
+            </div>
+            
+          </div> 
+     
+          <br>
+          <div class="card">
+            <img src="starbucks-2346226_1920.jpeg" alt="" class="">
+            
+            <div class="v">
+                <img src="starbucks-2383082_1280.jpeg" id="im"alt="">
+              <h4><b>healthy & tasty</b></h4>
+            <p>80000rs</p>
+
+        <button class="btn success" type="submit">Buy Now</button>
+            </div>
+            
+          </div> 
+     
+          <br>
+          <div class="card">
+            <img src="starbucks-2346226_1920.jpeg" alt="" class="">
+            
+            <div class="v">
+                <img src="starbucks-2346226_1920.jpeg" id="im"alt="">
+              <h4><b>healthy & tasty</b></h4>
+            <p>80000rs</p>
+
+        <button class="btn success" type="submit">Buy Now</button>
+            </div>
+            
+          </div> 
+     
+          <br>
+          <div class="card">
+            <img src="starbucks-2346226_1920.jpeg" alt="" class="">
+            
+            <div class="v">
+                <img src="starbucks-2383082_1280.jpeg" id="im"alt="">
+              <h4><b>healthy & tasty</b></h4>
+            <p>80000rs</p>
+
+        <button class="btn success" type="submit">Buy Now</button>
+            </div>
+            
+          </div> 
+     
+          
+    </div>
+    
+    <div class="q1">
+        
+       <div class="card">
+        <img src="starbucks-2346226_1920.jpeg" alt="" class="">
+        
+        <div class="v">
+            <img src="starbucks-2346226_1920.jpeg" id="im"alt="">
+          <h4><b>healthy & tasty</b></h4>
+        <p>80000rs</p>
+
+    <button class="btn success" type="submit">Buy Now</button>
+        </div>
+        
+      </div> 
+ 
+ 
+      <br>
+      <div class="card">
+        <img src="starbucks-2346226_1920.jpeg" alt="" class="">
+        
+        <div class="v">
+            <img src="starbucks-2383082_1280.jpeg" id="im"alt="">
+          <h4><b>healthy & tasty</b></h4>
+        <p>80000rs</p>
+
+    <button class="btn success" type="submit">Buy Now</button>
+        </div>
+        
+      </div> 
+ 
+      <br>
+      <div class="card">
+        <img src="starbucks-2346226_1920.jpeg" alt="" class="">
+        
+        <div class="v">
+            <img src="starbucks-2346226_1920.jpeg" id="im"alt="">
+          <h4><b>healthy & tasty</b></h4>
+        <p>80000rs</p>
+
+    <button class="btn success" type="submit">Buy Now</button>
+        </div>
+        
+      </div> 
+ 
+      <br>
+      <div class="card">
+        <img src="starbucks-2346226_1920.jpeg" alt="" class="">
+        
+        <div class="v">
+            <img src="starbucks-2383082_1280.jpeg" id="im"alt="">
+          <h4><b>healthy & tasty</b></h4>
+        <p>80000rs</p>
+
+    <button class="btn success" type="submit">Buy Now</button>
+        </div>
+        
+      
+ 
+        
+      
+      </div> 
+      
+</div>
+<br>
+
+
+
+
+</body>
+
+</html>
